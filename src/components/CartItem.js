@@ -42,7 +42,7 @@ const CartItem = ({ item }) => {
               {/* minus icon */}
               <div
                 onClick={() => decreaseAmount(id)}
-                className='flex flex-1 justify-center items-center h-full cursor-pointer '
+                className='flex flex-1 justify-center items-center h-full cursor-pointer'
               >
                 <IoMdRemove />
               </div>
