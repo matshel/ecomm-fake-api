@@ -7,6 +7,8 @@ In this project I have recreated Christian Mihai's e-commerce website.
 The purpose of making this project was to learn about React, and enhance my React skills.
 I also got to code some additions to this project that I have learned from doing other projects.
 
+For the product information I used fakestore's API - [fakestoreapi](https://fakestoreapi.com/) 
+
 ## Additions
 
 - Added Animate on scroll on selected elements, which i learned from doing [landing](https://github.com/matshel/landing) project.
