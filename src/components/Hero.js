@@ -19,7 +19,7 @@ const Hero = () => {
           </div>
           {/* title */}
           <h1 className='uppercase text-[70px] leading-[1.1] font-light mb-4'>
-            Winter Sale Stylish <br />
+            Autumn Sale Stylish <br />
             <span className='uppercase font-semibold'>Women's</span>
           </h1>
           <Link
