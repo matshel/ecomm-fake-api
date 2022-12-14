@@ -12,7 +12,16 @@ import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
 import Footer from "./components/Footer";
 
+// import aos
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 const App = () => {
+  // aos init
+  Aos.init({
+    duration: 1800,
+    offset: onabort,
+  });
   return (
     <div className='overflow-hidden'>
       <Router>

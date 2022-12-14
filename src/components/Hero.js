@@ -9,7 +9,11 @@ import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <section className='h-[800px] bg-blue-200 bg-hero bg-no-repeat bg-cover bg-center py-24'>
-      <div className=' flex justify-around container mx-auto h-full'>
+      <div
+        className=' flex justify-around container mx-auto h-full'
+        data-aos='fade-down'
+        data-aos-delay='400'
+      >
         {/* text */}
         <div className='flex flex-col justify-center'>
           {/* pre-title */}
